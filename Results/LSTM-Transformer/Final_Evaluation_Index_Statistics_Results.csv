@@ -1,7 +1,0 @@
-RMSE,nRMSE,MAPE,sMAPE,R2
-136.76393,0.43702924,0.31493,0.3526061177253723,0.7513209607945525
-,,,,,Multi-step prediction of the mean value of each indicator
-,,,,,
-,,,,,
-all_samples_rmse,nrmse_mean,mape_mean,sampe_mean,R2_mean
-136.76393,0.43702924,0.31493,0.3526061177253723,0.7513209607945525
