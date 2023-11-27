@@ -45,7 +45,7 @@ LSTM-InformerStack-RGB|RGB images and text|(N,T,C,,W,H)/(N,T,F)|LSTM-InformerSta
 ## Usage example
 Networks can be trained on pandas Dataframes where the collected dataset is first converted into a time series dataset.
 
-```
+```python
 def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
 	n_vars = 1 if type(data) is list else data.shape[1]
 	df = pd.DataFrame(data)
