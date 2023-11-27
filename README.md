@@ -19,7 +19,6 @@ pip install -r requirements.txt
 
 3. Train and evaluate model. We provide available all benchmark experiment scripts under the folder `./scripts/` with training scripts for the model. In addition, we performed predictions with different time steps (1, 6, 12, and 24) for different prediction methods and evaluated the models according to different evaluation metrics.You can reproduce the experiment results as the following examples:
 
-```
 ### The basic parameter settings for model training.
 
 |Methods|Original data source|Image/text input shape|Major models|Output shape
@@ -35,7 +34,7 @@ LSTM-InformerStack-RGB|RGB images and text|(N,T,C,,W,H)/(N,T,F)|LSTM-InformerSta
 
 * N,T,C,W,H,F,S represent batchsize,timestep,number of channels,image width and height, number of features, number of prediction steps respectively.*
 
-```
+
 
 4. Develop your own model.
 
