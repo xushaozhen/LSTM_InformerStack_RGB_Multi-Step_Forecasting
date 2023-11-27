@@ -3,7 +3,7 @@ LIRMSF is an open source library for deep learning researchers, especially for l
 
 We provide a concise codebase for predicting solar irradiance multi-step time series using deep learning models that combine meteorological text data with all-sky image data. Eight different model prediction methods are covered: peresietence, LSTM-RGB,Transformer,LSTM-Transformer,LSTM-Transformer-RGB,InformerStack,LSTM-InformerStack,LSTM- InformerStack-RGB.
 
-** If you have proposed advanced and awesome models, welcome to send your paper/code link to us or raise a pull request. We will add them to this repo as soon as possible.**
+- If you have proposed advanced and awesome models, welcome to send your paper/code link to us or raise a pull request. We will add them to this repo as soon as possible.
 
 
 ## Usage
@@ -32,7 +32,7 @@ InformerStack|text data|/(N,T,F)|InformerStack|(N,S)
 LSTM-InformerStack|text data|/(N,T,F)|LSTM-InformerStack|(N,S)
 LSTM-InformerStack-RGB|RGB images and text|(N,T,C,,W,H)/(N,T,F)|LSTM-InformerStack|(N,S)
 
-** N,T,C,W,H,F,S represent batchsize,timestep,number of channels,image width and height, number of features, number of prediction steps respectively.**
+- N,T,C,W,H,F,S represent batchsize,timestep,number of channels,image width and height, number of features, number of prediction steps respectively.
 
 
 
